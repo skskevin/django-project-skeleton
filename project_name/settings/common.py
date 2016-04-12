@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Import sys (to adjust Python path)
-import sys
+# import sys
 # Import some utility functions
 from os.path import abspath, basename, dirname, join, normpath
 
