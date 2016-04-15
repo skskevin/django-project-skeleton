@@ -11,13 +11,13 @@ DEBUG = True
 
 # ##### DATABASE CONFIGURATION ############################
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
-        'NAME': 'DATABASENAME',
-        'USER': 'USER',
-        'PASSWORD': 'PASSWORD',
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'HOST': '127.0.0.1',
+    #     'NAME': 'DATABASENAME',
+    #     'USER': 'USER',
+    #     'PASSWORD': 'PASSWORD',
+    # }
 }
 
 # ##### APPLICATION CONFIGURATION #########################
