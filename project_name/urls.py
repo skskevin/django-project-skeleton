@@ -7,7 +7,7 @@ from django.contrib import admin
 
 urlpatterns = [
     # demo url conf, include must have single quote(')
-    # url(r'^path/$', include('apps.app.urls')) 
+    # url(r'^path/$', include('apps.app.urls'))
     # url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
     url(r'^admin/', include(admin.site.urls)),
 ]
