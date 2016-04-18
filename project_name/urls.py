@@ -3,10 +3,11 @@
 from django.conf import settings
 from django.conf.urls import include, url
 from django.contrib import admin
-from django.views.generic import TemplateView
+# from django.views.generic import TemplateView
 
 urlpatterns = [
-    # default page
+    # demo url conf, include must have single quote(')
+    # url(r'^path/$', include('apps.app.urls')) 
     # url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
     url(r'^admin/', include(admin.site.urls)),
 ]
