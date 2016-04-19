@@ -123,6 +123,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+LOGIN_URL = '/accounts/user_login'
+
 # Template Settings
 TEMPLATES = [
     {
