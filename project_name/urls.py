@@ -12,8 +12,8 @@ urlpatterns = [
     # url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
     url(r'^admin/logout', accounts_views.user_logout),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^accounts/', include('apps.accounts.urls')),
-    url(r'^example/', include('apps.example.urls')),
+    url(r'^accounts/', include('apps.manager.accounts.urls')),
+    url(r'^example/', include('apps.manager.example.urls')),
 ]
 
 # 关闭调试模式，如果未部署Nginx,则添加此URL，让Django提供静态文件
