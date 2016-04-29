@@ -31,15 +31,15 @@ SECRET_KEY = '{{ secret_key }}'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'HOST': '127.0.0.1',
-    #     'NAME': 'DATABASENAME',
-    #     'USER': 'USER',
-    #     'PASSWORD': 'PASSWORD',
-    # }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': '127.0.0.1',
+#         'NAME': 'DATABASENAME',
+#         'USER': 'USER',
+#         'PASSWORD': 'PASSWORD',
+#     }
+# }
 
 ALLOWED_HOSTS = []
 
