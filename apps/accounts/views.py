@@ -11,7 +11,7 @@ def user_login(request):
     if request.user.is_authenticated():
         return HttpResponseRedirect('/example/index')
 
-    return render(request, 'manager/accounts/user_login.html')
+    return render(request, 'accounts/user_login.html')
 
 
 def login_save(request):
