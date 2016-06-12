@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from production import *
+from base import *
 
-DEBUG = True
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
+ALLOWED_HOSTS = ["*", ]
 
 # DATABASES = {
 #     'default': {
@@ -20,15 +23,6 @@ CACHES = {
         'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
     }
 }
-
-# DJANGO DEBUG TOOLBAR
-# MIDDLEWARE_CLASSES += (
-#    'debug_toolbar.middleware.DebugToolbarMiddleware',
-# )
-
-# INSTALLED_APPS += (
-#    'debug_toolbar',
-# )
 
 # EMAIL CONFIGURATION
 EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
